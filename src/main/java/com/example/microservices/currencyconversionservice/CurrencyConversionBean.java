@@ -84,6 +84,7 @@ public class CurrencyConversionBean {
     public String toString() {
         return "CurrencyConversionBean{" +
                 "id=" + id +
+                ", from='" + from + '\'' +
                 ", to='" + to + '\'' +
                 ", conversionMultiple=" + conversionMultiple +
                 ", quantity=" + quantity +
